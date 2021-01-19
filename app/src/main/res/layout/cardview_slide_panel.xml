@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/cardview"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:background="#FAFAFA"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cover"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="97dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@id/cover"
+                android:layout_toRightOf="@id/cover"
+                android:maxWidth="200dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/value"
+                android:layout_width="101dp"
+                android:layout_height="64dp"
+                android:layout_below="@id/title"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-65dp"
+                android:layout_toEndOf="@id/title"
+                android:layout_toRightOf="@id/title"
+                android:maxWidth="200dp" />
+
+            <TextView
+                android:id="@+id/valuePromo"
+                android:layout_width="86dp"
+                android:layout_height="60dp"
+                android:layout_below="@id/value"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="-65dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginRight="6dp" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

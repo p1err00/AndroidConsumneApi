@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppliCoursAndroid</string>
+    <string name="name">Go Store</string>
+    <string name="index_name">Index</string>
+    <string name="text">Button</string>
+    <string name="hello_world">Hello world</string>
+    <string name="AlertDialogButton">AlertDialogButton</string>
+    <string name="FragmentButton">FragmentButton</string>
+    <string name="TabActivityButton">TabActivityButton</string>
+</resources>
