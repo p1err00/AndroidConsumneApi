@@ -16,12 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void sendMessage(View view) {
-        Intent intent = new Intent(this, DisplayMessageActivity.class);
-        //EditText editText = (EditText)findViewById(R.id.ediText);
-
-    }
-
     public void clickFunction(View view) {
 
         EditText edit = (EditText)findViewById(R.id.ediTextEmail);
@@ -35,22 +29,5 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "Connexion failed, retry",
                     Toast.LENGTH_LONG).show();
         }
-
-
-        /*
-        Intent myIntent = new Intent();
-        myIntent.setClassName("com.example", "com.example.applicoursandroid.Index");
-        startActivity(myIntent);
-
-
-        AlertDialog.Builder build = new AlertDialog.Builder(MainActivity.this)
-                .setTitle("Alert")
-                .setMessage("ceci est une alert qui fonctionne");
-        AlertDialog alert1 = build.create();
-        alert1.show();
-
-
-                */
-
     }
 }

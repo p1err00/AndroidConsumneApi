@@ -1,40 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
 
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="250dp"
-            android:layout_height="60dp"
-            android:textAlignment="center"
-            android:text="@string/name"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.103"
-            android:gravity="center"
-            android:fontFamily="sans-serif-black"
-            android:textSize="96px" />
-
-        <ListView
-            android:id="@+id/list_panel"
+        <Button
+            android:id="@+id/add"
             android:layout_width="wrap_content"
-            android:layout_height="600dp"
-            android:layout_marginTop="60dp"
-            android:clickable="true"
-            android:focusable="true"
-            android:padding="10dp"
-            tools:ignore="NotSibling" />
+            android:layout_height="wrap_content"
+            android:text="Add New"
+            android:onClick="onClick"/>
 
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete First"
+            android:onClick="onClick"/>
 
-    </RelativeLayout>
-</RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name" />
+
+</LinearLayout>
+
