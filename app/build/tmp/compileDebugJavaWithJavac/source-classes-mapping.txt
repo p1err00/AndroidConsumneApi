@@ -1,0 +1,16 @@
+com/example/applicoursandroid/AddActivity.java
+ com.example.applicoursandroid.AddActivity
+com/example/applicoursandroid/GameDataSource.java
+ com.example.applicoursandroid.GameDataSource
+com/example/applicoursandroid/BuildConfig.java
+ com.example.applicoursandroid.BuildConfig
+com/example/applicoursandroid/Adaptater.java
+ com.example.applicoursandroid.Adaptater
+com/example/applicoursandroid/Game.java
+ com.example.applicoursandroid.Game
+com/example/applicoursandroid/MyDBHandler.java
+ com.example.applicoursandroid.MyDBHandler
+com/example/applicoursandroid/IndexActivity.java
+ com.example.applicoursandroid.IndexActivity
+com/example/applicoursandroid/MainActivity.java
+ com.example.applicoursandroid.MainActivity
